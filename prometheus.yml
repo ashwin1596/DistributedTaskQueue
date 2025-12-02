@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'task-queue'
+    static_configs:
+      - targets: ['server:8080']
+        labels:
+          service: 'task-queue-server'

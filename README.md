@@ -1,6 +1,6 @@
 # Distributed Task Queue
 
-A production-ready distributed task queue system written in Go, featuring priority queues, automatic retries, Redis persistence, and Prometheus metrics.
+a distributed task queue in Go that processes thousands of asynchronous jobs per second. It features priority scheduling, automatic retries, horizontal scaling, and production-grade monitoring. The system is fully containerized, has comprehensive tests, and includes Prometheus metrics.
 
 ![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
